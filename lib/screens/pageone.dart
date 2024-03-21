@@ -14,7 +14,7 @@ class MyWidget extends StatefulWidget {
 class _MyWidgetState extends State<MyWidget> {
   final model = GenerativeModel(model: 'gemini-pro', apiKey: Key);
   TextEditingController controller = TextEditingController();
-  static const Key = 'AIzaSyCIcgCo7YzxsSwhgsm-DFjld9TMTfEbjFU';
+  static const Key = '';
   void sentmessage() async {
     messagelist.add(
         Message(isuser: true, Chat: controller.text, date: DateTime.now()));
